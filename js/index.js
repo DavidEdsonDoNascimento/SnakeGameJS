@@ -11,7 +11,7 @@ window.onload = () => {
             },
             map:{
                 with: MapGame.getMap().width,    // configurações de largura div do canvas destinada ao mapa do jogo
-                height: MapGame.getMap().height, // configurações de largura div do canvas destinada ao mapa do jogo
+                height: MapGame.getMap().height, // configurações de altura div do canvas destinada ao mapa do jogo
                 onePart: 20, //// configuração desejada do mapa 20x20 (20 quadradinhos cima x 20 quadradinhos baixo)
                 qtdParts: 20,
                 color: 'black'
@@ -101,11 +101,9 @@ const playGame = (game) => {
         game.settings.snake.position.y = 0;
     }
 
-
     // configurações iniciais do contexto do game
     game.context.fillStyle = game.settings.map.color;
     game.context.fillRect(0, 0, game.map.width, game.map.height);
-
 
     // desenhando a moeda em tela
     game.context.fillStyle = game.settings.coin.color;
