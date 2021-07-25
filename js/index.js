@@ -23,14 +23,14 @@ window.onload = () => {
                 },
                 trail: [], // rastro da cobra
                 tail: 5, // calda da cobra
-                color: 'gray'
+                color: 'green'
             },
             coin: {
                 position: {
                     x: 15, // posição atual da moeda no eixo vertical
                     y: 15  // posição atual da moeda no eixo horizont
                 },
-                color: 'yellow',
+                color: 'red',
                 setPositionRandom: function () {
                     this.position.x = Math.floor(Math.random() * 20);
                     this.position.y = Math.floor(Math.random() * 20);

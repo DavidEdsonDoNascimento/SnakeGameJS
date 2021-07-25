@@ -5,11 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classic Snake Game</title>
+    <link rel="shortcut icon" href="img/snake.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Classic Snake Game</h1>
-    <p>Utilize as teclas (cima, baixo, esquerda, direita) para iniciar o jogo.</p>
-    <canvas id="map-game" width="400" height="400"></canvas>
+    <div class="container text-center mt-3">
+        <h1 class="title-game">Classic Snake Game</h1>
+        <div class="info-controllers">
+            
+            <table class="table table-sm table-bordered">
+                <tbody>
+                    <tr>
+                        <td class="font-weight-bold">Utilize as teclas:</td>
+                        <td>Cima</td>
+                        <td>Baixo</td>
+                        <td>Esquerda</td>
+                        <td>Direita</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <canvas id="map-game" width="400" height="400"></canvas>
+    </div>
     <script src="js/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+
+body{
+    background: #222;
+    background: radial-gradient(#333, #111);
+    background-size: cover;
+    color: #fff;
+    font: 100%/1.5 sans-serif;
+    overflow: hidden;
+}
+
+.title-game {
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
